@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:mocha": "mocha ./javascript/**/*.test.js",
-    "test": "npm run test:mocha"
+    "test:mocha": "mocha",
+    "test:mocha:all": "mocha ./javascript/**/*.test.js",
+    "test": "yarn test:mocha:all"
   },
   "repository": {
     "type": "git",
